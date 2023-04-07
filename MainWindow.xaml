@@ -1,0 +1,16 @@
+﻿<Window x:Class="HelpMe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HelpMe"
+        mc:Ignorable="d"
+        Title="МайнВиндовКольскешальтед" HorizontalAlignment="Center" VerticalAlignment="Center" ResizeMode="NoResize" Width="960" Height="640" Icon="/pepug.jpg">
+    <Window.Background>
+        <ImageBrush ImageSource="/pepug.jpg" Stretch="Fill"/>
+    </Window.Background>
+
+    <Frame Name="MainFrame" Width="Auto" Height="Auto" NavigationUIVisibility="Hidden"/>
+
+    
+</Window>
